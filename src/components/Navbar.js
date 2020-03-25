@@ -10,7 +10,7 @@ class Navbar extends Component {
                 <div className="nav-wrapper valign-wrapper" style={{
                     margin: '0px 10px'
                 }}>
-                    <Link to="/shopping-cart/" className="left" style={{
+                    <Link to="/" className="left" style={{
                         textAlign: 'left',
                         width: '50%'
                     }}
@@ -26,7 +26,7 @@ class Navbar extends Component {
                         width: '43%',
                         textAlign: 'right',
                     }}>
-                        <Link to="/shopping-cart/summary" style={{ display: 'inline' }}>
+                        <Link to="/summary" style={{ display: 'inline' }}>
                             <i className="material-icons">shopping_cart</i>
                         </Link>
                     </div>

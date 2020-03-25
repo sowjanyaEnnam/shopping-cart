@@ -69,7 +69,7 @@ class Summary extends Component {
         return (
             <div className="container" >
                 <div className="cart" style={{ marginTop: '20px' }}>
-                    <Link to='/shopping-cart/'>
+                    <Link to='/'>
                         <i className="tiny material-icons" style={{ verticalAlign: 'middle', paddingBottom: '3px', }}>arrow_back</i>
                         <span>  Back to Home</span>
                     </Link>
@@ -83,7 +83,7 @@ class Summary extends Component {
                                     }
                                     <div className="divider"></div>
                                     <div style={{ margin: '19px 0px', }}>
-                                        <Link to='/shopping-cart/'>
+                                        <Link to='/'>
                                             <i className="tiny material-icons" style={{ verticalAlign: 'middle', paddingBottom: '3px', }}>add</i>
                                             <span>Add More Items</span>
                                         </Link>

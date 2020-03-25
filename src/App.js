@@ -15,8 +15,8 @@ class App extends Component {
           </div>
           <div style={{ height: '93vh', overflowY: 'scroll', }}>
             <Switch>
-              <Route path='/shopping-cart/' exact component={Home} />
-              <Route path='/shopping-cart/summary' exact component={Summary} />
+              <Route path='/' exact component={Home} />
+              <Route path='/summary' exact component={Summary} />
             </Switch>
           </div>
         </div>
